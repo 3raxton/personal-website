@@ -17,6 +17,8 @@ defaults:
       layout: "post"
 
 repositories:
+  - ForeignIpsum
+  - Homesick
   - desktop-test
   - Juice
   - MacPlug
@@ -27,7 +29,7 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 5
+  limit: 0
   exclude:
     forks:
     projects: – license, - vineconvert
