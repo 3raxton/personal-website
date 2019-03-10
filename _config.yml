@@ -17,6 +17,7 @@ defaults:
       layout: "post"
 
 repositories:
+  sort_by: stars
   - ForeignIpsum
   - Homesick
   - desktop-test
