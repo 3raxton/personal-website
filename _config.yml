@@ -32,9 +32,8 @@ projects:
   limit: 5
   exclude:
     forks:
-    projects:
+    projects: – license
     # - repo-name
-    – license
 
 social_media:
   # behance: your_username
