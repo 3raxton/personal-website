@@ -17,11 +17,9 @@ defaults:
       layout: "post"
 
 repositories:
-  - ForeignIpsum
   - desktop-test
   - Juice
   - MacPlug
-  - portfolio
   
 
 projects:
@@ -32,7 +30,7 @@ projects:
   limit: 5
   exclude:
     forks:
-    projects: – license
+    projects: – license, - vineconvert
     # - repo-name
 
 social_media:
