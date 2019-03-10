@@ -16,6 +16,14 @@ defaults:
     values:
       layout: "post"
 
+repositories:
+  - ForeignIpsum
+  - desktop-test
+  - Juice
+  - MacPlug
+  - portfolio
+  
+
 projects:
   sort_by: stars
   # sort_by options:
@@ -26,6 +34,7 @@ projects:
     forks:
     projects:
     # - repo-name
+    – license
 
 social_media:
   # behance: your_username

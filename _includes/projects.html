@@ -7,6 +7,14 @@
     {% assign sort_order = 'pushed_at' %}
   {% endif %}
 
+  {% for repository in site.github.public_repositories %}
+    {% if site.repositories contains repository.name %}
+      <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+        {% include repo-card.html %}
+      </div>
+    {% endif %}
+  {% endfor %}
+
   {% if site.projects.exclude.forks %}
     {% assign filtered_repos = site.github.public_repositories | where:'fork', false | sort: sort_order | reverse %}
   {% else %}
