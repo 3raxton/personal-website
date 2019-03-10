@@ -23,8 +23,8 @@ projects:
   #   - stars
   limit: 5
   exclude:
-    forks: true
-    projects: true
+    forks: false
+    projects: false
     # - repo-name
 
 social_media:
